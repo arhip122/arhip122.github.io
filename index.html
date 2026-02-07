@@ -27,7 +27,7 @@
     const weight = parseInt(document.getElementById("InputWeight").value)
     const height = parseInt(document.getElementById("InputHeight").value)/100
     const res = weight/(height*height)
-    document.getElementById("Out").innerHTML = Math.round(res)
+    document.getElementById("Out").innerHTML = Math.round(res, 2)
   }
 </script>
 
